@@ -21,28 +21,75 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <label for="user_name">Nome e Cognome</label>
-                        <input type="text" name="user_name" id="user_name">
+                        <div class="form_item">
+                            <label for="user_name">Nome e Cognome</label>
+                            <input type="text" name="user_name" id="user_name">
+                        </div>
                     </div>
                     <div class="col">
-                        <label for="km_number">Km da percorrere</label>
-                        <input type="number" name="km_number" id="km_number">
+                        <div class="form_item">
+                            <label for="km_number">Km da percorrere</label>
+                            <input type="number" name="km_number" id="km_number">
+                        </div>
                     </div>
                     <div class="col">
-                        <label for="select_age">Fascia d'età</label>
-                        <select name="select_age" id="select_age">
-                            <option value=""></option>
-                            <option value="under_18">Minorenne</option>
-                            <option value="default">Maggiorenne</option>
-                            <option value="over_65">+65</option>
-                        </select>
+                        <div class="form_item">
+                            <label for="select_age">Fascia d'età</label>
+                            <select name="select_age" id="select_age">
+                                <option value=""></option>
+                                <option value="under_18">Minorenne</option>
+                                <option value="default">Maggiorenne</option>
+                                <option value="over_65">+65</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button id="form_btn">Genera</button>
+                        <button id="form_btn_clear">Annulla</button>
                     </div>
                 </div>
             </div>
 
         </section>
         <section class="Prezzo_biglietto">
-
+            <h1>Il tuo biglietto</h1>
+            <div class="container">
+                <h2>Dettaglio passeggeri</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="form_item">
+                            <h3>Nome passeggero</h3>
+                            <div class="result_name"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form_item">
+                            <div class="fw-bolder">Offerta</div>
+                            <div class="resul_offerta"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form_item">
+                            <div class="fw-bolder">Carrozza</div>
+                            <div class="resul_offerta"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form_item">
+                            <div class="fw-bolder">Codice CP</div>
+                            <div class="resul_offerta"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form_item">
+                            <div class="fw-bolder">Costo Biglietto</div>
+                            <div class="resul_offerta"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
